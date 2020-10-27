@@ -35,8 +35,6 @@ def merge_sort(a):
     return merge(left, right)
 
 
-
-
 if __name__ == '__main__':
     l = [1, 5, 6, 3, 9, 8, 4, 7, 2]
     print(merge_sort(l))
